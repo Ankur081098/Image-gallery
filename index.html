@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery </title>
+</head>
+<style>
+    *{
+        padding: 0%;
+        margin: 0%;
+        background-color: aqua;
+    }
+    .up{
+        display: flex;
+        justify-content: center;
+       
+        
+    }
+    #top{
+        background-color: crimson;
+        width: 100vw;
+        height: 10vh;
+        display: flex;
+        font-size: 50px;
+        font-family: sans-serif;
+        justify-content: center;
+        align-items: center;
+    }
+    .first{
+        padding-top: 50px;
+       
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 100px;
+         }
+         .second{
+             display: flex;
+             flex-direction: row;
+             justify-content: center;
+             
+             gap: 100px;
+         }
+         .third{
+             display: flex;
+             justify-content: center;
+             gap: 100px;
+
+         }
+         .imgsection{
+             border-style: solid;
+             
+         }
+</style>
+<body>
+    <div class="up">
+    <div id="top">My Image Gallery</div>
+    </div>
+    <div class="imgsection">
+    <div class="first">
+        <div><img src="./mountain.avif" style="width:200px;height:200px"></div>
+        <div><img src="./img2.jpg" style="width:200px;height:200px"></div>
+        <div><img src="./img3.avif" style="width:200px;height:200px"></div>
+        
+    </div>
+    <div class="second">
+        <div><img src="./img4.avif" style="width:200px;height:200px"></div>
+        <div><img src="./img5.avif" style="width:200px;height:200px"></div>
+        <div><img src="./img6.avif" style="width:200px;height:200px"></div>
+    </div>
+    <div class="third">
+        <div><img src="./img7.avif" style="width:200px;height:200px"></div>
+        <div><img src="./img8.avif" style="width:200px;height:200px"></div>
+        <div><img src="./img9.avif" style="width:200px;height:200px"></div>
+    </div>
+</div>
+</body>
+</html>
